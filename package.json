@@ -1,6 +1,6 @@
 {
   "name": "log-reject-error",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dead Simple unhandledRejection handler",
   "main": "index.js",
   "scripts": {
