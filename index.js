@@ -1,9 +1,16 @@
 'use strict'
 
-module.exports = log => {
-  log = log || console.error
+let installed = false
+const EVENT_NAME = 'unhandledRejection'
 
-  process.on('unhandledRejection', (err) => {
+module.exports = log => {
+  // if installed & have  ignore
+  if (installed && process.listenerCount(EVENT_NAME) > 0) return
+
+  log = log || console.error
+  installed = true
+
+  process.on(EVENT_NAME, (err) => {
     log(err.stack || err)
   })
 }
