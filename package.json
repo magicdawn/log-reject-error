@@ -1,0 +1,35 @@
+{
+  "name": "log-reject-error",
+  "version": "0.0.1",
+  "description": "Dead Simple unhandledRejection handler",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-cover": "istanbul cover _mocha -- -u exports",
+    "report-cover": "codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/magicdawn/log-reject-error.git"
+  },
+  "keywords": [
+    "loud-rejection",
+    "log",
+    "reject",
+    "promise",
+    "unhandledRejections"
+  ],
+  "author": "magicdawn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magicdawn/log-reject-error/issues"
+  },
+  "homepage": "https://github.com/magicdawn/log-reject-error#readme",
+  "devDependencies": {
+    "codecov": "^1.0.1",
+    "eslint": "^3.10.0",
+    "mocha": "^3.1.2",
+    "co-mocha": "^1.2.0",
+    "should": "^11.1.1"
+  }
+}
