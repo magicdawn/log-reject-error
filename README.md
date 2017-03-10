@@ -13,8 +13,22 @@ $ npm i log-reject-error --save
 ```
 
 ## API
+
 ```js
-const logRejectError = require('log-reject-error');
+const logRejectError = require('log-reject-error')
+logRejectError(log) // log defaults to `console.error`
+```
+
+### `register`
+
+```js
+require('log-reject-error/register')
+
+// equals to
+require('log-reject-error')()
+
+// convenient for ES6 import
+import 'log-reject-error/register'
 ```
 
 ## Changelog
