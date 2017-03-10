@@ -7,6 +7,11 @@
 [![npm downloads](https://img.shields.io/npm/dm/log-reject-error.svg?style=flat-square)](https://www.npmjs.com/package/log-reject-error)
 [![npm license](https://img.shields.io/npm/l/log-reject-error.svg?style=flat-square)](http://magicdawn.mit-license.org)
 
+## Note
+
+Use this module in start of Application / Script / Framework, not in any library.
+Just like [loud-rejection](https://github.com/sindresorhus/loud-rejection) do.
+
 ## Install
 ```sh
 $ npm i log-reject-error --save
