@@ -1,4 +1,6 @@
 # log-reject-error
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/magicdawn/log-reject-error.svg)](https://greenkeeper.io/)
 > Dead Simple unhandledRejection handler
 
 [![Build Status](https://img.shields.io/travis/magicdawn/log-reject-error.svg?style=flat-square)](https://travis-ci.org/magicdawn/log-reject-error)
